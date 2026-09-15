@@ -8,30 +8,44 @@ body {
 }
 
 .header {
-    width: 400px;
+    box-sizing: border-box;
     border: solid 5px black;
     text-align: center;
     margin: auto;
+    width: 300px;
+    max-width: 90%;
 }
 
 .intro {
-    font-size: 13px;
+    text-align: center;
 }
 
+.photouno {
+    text-align: center;
+    width: 100%;
+
+}
+
+.photouno img {
+    max-width: 90%;
+    
+}
+
+
 .description {
-    width: 900px;
-    padding:20px;
+    padding:10px;
     
 }
     
 .description span { 
-    border: solid 2px black;
+    border:solid 2px black;
     background-color: orange;
 }
 
 .ingredients {
     margin: auto;
     width: 300px;
+    max-width: 90%;
     text-align: center;
     border: solid 4px black;
     padding: 2px;
@@ -40,18 +54,19 @@ body {
 
 .broth {
     border: solid 4px black;
-    margin: 25px;
+    margin: 18px;
     padding: 15px;
 }
 
 .toppings {
     border: solid 4px black;
-    margin: 25px;
+    margin: 18px;
     padding: 15px; 
 }
 
 .preperation { 
     width:300px;
+    max-width: 90%;
     margin: auto;
     text-align: center;
     border: solid 4px black;
@@ -60,7 +75,86 @@ body {
 
 .cooking {
     border: solid 4px black;
-    margin: 25px;
+    margin: 18px;
     padding: 15px;
 }
 
+.upgrade {
+    text-align: center;
+}
+
+.aone {
+    border: solid 4px black;
+    text-align: center;
+    width: 300px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.aingredients {
+   border: solid 4px black;
+   margin: 18px;
+   padding: 15px;
+}
+
+.aprep {
+    border: solid 4px black;
+    margin: 18px;
+    padding: 15px;
+}
+
+.softegg {
+    border: solid 4px black;
+    text-align: center;
+    width: 300px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.softprep {
+    border: solid 4px black;
+    margin: 18px;
+    padding:15px;
+}
+
+.kale {
+    border: solid 4px black;
+    text-align: center;
+    width: 300px;
+    max-width: 90%;
+    margin:auto;
+}
+
+.kaleprep {
+    border: solid 4px black;
+    margin:18px;
+    padding:15px;
+}
+
+.mush {
+    border: solid 4px black;
+    text-align: center;
+    width: 300px;
+    max-width: 90%;
+    margin:auto;
+}
+
+.mushprep {
+    border: solid 4px black;
+    margin: 18px;
+    padding: 15px;
+}
+
+
+.phototwo {
+    text-align: center;
+    width:100%
+}
+
+.phototwo img {
+    max-width: 90%;
+}
+
+.end {
+    text-align: center;
+}
