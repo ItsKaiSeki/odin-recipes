@@ -1,0 +1,27 @@
+/* Universal selector style */
+/* guessing this will change the entire page background. */
+/* Notes to self : yes Universal selector lets you change up the main page behind content */
+
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Courier New', Arial; 
+    
+}
+
+body {
+    background-color: beige;
+}
+
+.card {
+    width: 500px;
+    background-color: cadetblue;
+    margin: auto;
+}
+
+
+
+
+.header {
+   text-align: center;
+}
+
