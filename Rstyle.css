@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Courier New', Arial;
+}
+
+body {
+    background-color: beige;
+}
+
+.header {
+    width: 400px;
+    border: solid 5px black;
+    text-align: center;
+    margin: auto;
+}
+
+.intro {
+    font-size: 13px;
+}
+
+.description {
+    width: 900px;
+    padding:20px;
+    
+}
+    
+.description span { 
+    border: solid 2px black;
+    background-color: orange;
+}
+
+.ingredients {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    border: solid 4px black;
+    padding: 2px;
+
+}
+
+.broth {
+    border: solid 4px black;
+    margin: 25px;
+    padding: 15px;
+}
+
+.toppings {
+    border: solid 4px black;
+    margin: 25px;
+    padding: 15px; 
+}
+
+.preperation { 
+    width:300px;
+    margin: auto;
+    text-align: center;
+    border: solid 4px black;
+    padding: 2px;
+}
+
+.cooking {
+    border: solid 4px black;
+    margin: 25px;
+    padding: 15px;
+}
+

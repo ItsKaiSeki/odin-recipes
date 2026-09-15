@@ -13,15 +13,13 @@ body {
 }
 
 .card {
-    width: 500px;
-    background-color: cadetblue;
+    width: 450px;
     margin: auto;
+    border: solid 4px black;
 }
 
-
-
-
-.header {
-   text-align: center;
+.header,
+.body {
+    text-align: center;
 }
 
