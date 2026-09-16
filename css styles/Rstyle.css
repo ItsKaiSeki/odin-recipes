@@ -8,12 +8,12 @@ body {
 }
 
 .header {
-    box-sizing: border-box;
     border: solid 5px black;
     text-align: center;
     margin: auto;
     width: 300px;
     max-width: 90%;
+    padding: 2px;
 }
 
 .intro {
