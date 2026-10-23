@@ -2,25 +2,73 @@
 /* guessing this will change the entire page background. */
 /* Notes to self : yes Universal selector lets you change up the main page behind content */
 
+
+/* updates are made after flex bod lessons. */
+/* universal will handle the font for the entire page, and the box sizing method. */
 * {
-    box-sizing: border-box;
-    font-family: Georgia, 'Courier New', Arial; 
-    
+    font-family: Cinzel,'Courier New',Arial; 
 }
 
 body {
     background-color: beige;
+    margin: 0;
 }
+
+
+/* Header section handles the main header container 
+    title will let you interact with the "the cookbook" text
+    logo lets you interact with the logo  */
+.header {
+    background: #650015;
+    display:flex;
+    padding: 0px 5px;
+    flex: 1;
+    
+.title {
+    margin:auto;
+    color: #fffdd0;
+    text-decoration: underline 3px #c9ae92;
+    
+}  
+
+}
+
 
 .card {
-    width: 400px;
-    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .cardtitle {
+    border: solid 5px b;
     margin: auto;
-    border: solid 4px black;
-}
+    
+    
+ }
 
-.header,
-.body {
+ .info {
+    margin: auto; 
     text-align: center;
+ }
+
+ .links {
+    margin: auto;
+    color: #352620;
+ }
+
+ul li { 
+    list-style-type: none;
+
 }
 
+a { 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #352620;
+}
+
+a:hover {
+    color: #650015;
+}
