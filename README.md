@@ -1,12 +1,10 @@
 # Odin-Recipes
 
-Welcome to my odin recipes project, 
+<strong>Welcome to Odin - recipes.</strong>
 
-As I progress through " The Odin Project " Curriculum, I will be showcasing my learning via this project. 
-Adding things such as HTML, CSS, Flex box, and Javascript, as I learn the concepts. 
+This project is a simple website that show cases 3 recipes, showcasing HTML, CSS, and flex-box knowledge. 
 
-I'll also be adding more recipes as well just to continue practicing different css styles and just to better grasp the key concepts!
+Updated : October 23rd, updated the styling of the landing page, made it look sleek and modern, Still basic in a sense but proud
+of the work I am able to showcase. I appreciate you checking out my hard work! Have an amazing day! 
 
-Thank you for checking out my project and Have an amazing day! 
-
-
+- More updates planned. so check in to see what's new !
