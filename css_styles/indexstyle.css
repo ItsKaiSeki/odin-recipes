@@ -1,7 +1,4 @@
-/* Universal selector style */
-/* guessing this will change the entire page background. */
-/* Notes to self : yes Universal selector lets you change up the main page behind content */
-
+/*  * handles universal declarations */
 
 /* updates are made after flex bod lessons. */
 /* universal will handle the font for the entire page, and the box sizing method. */
@@ -9,6 +6,7 @@
     font-family: Cinzel,'Courier New',Arial; 
 }
 
+/* The body is the canvas, for future reference handles things regarding the body in this case background color */
 body {
     background-color: beige;
     margin: 0;
@@ -16,24 +14,25 @@ body {
 
 
 /* Header section handles the main header container 
-    title will let you interact with the "the cookbook" text
-    logo lets you interact with the logo  */
+   title will let you interact with the "the cookbook" text
+   header and title are nested for cleaner code  */
 .header {
     background: #650015;
     display:flex;
     padding: 0px 5px;
     flex: 1;
-    
+   
 .title {
     margin:auto;
     color: #fffdd0;
     text-decoration: underline 3px #c9ae92;
-    
+    padding-top: 20px;
 }  
 
 }
 
 
+/* card handles all the stuff like card title, title decor and links, */
 .card {
     display: flex;
     flex-direction: column;
@@ -41,10 +40,27 @@ body {
 
  .cardtitle {
     border: solid 5px b;
-    margin: auto;
-    
+    margin: auto;  
+    margin-top: 20px;
     
  }
+
+
+/* added a hover just to give it some flare */
+.cardtitle:hover {
+    color:#650015;
+}
+
+
+ .titledeco {
+    margin: auto;
+ }
+
+ /* gave this a little hover flare as well */
+ .titledeco:hover {
+    color: #650015;
+ }
+
 
  .info {
     margin: auto; 
@@ -56,19 +72,52 @@ body {
     color: #352620;
  }
 
+/* lets you add specific spacing to the links themselves */
+.links li {
+    margin-bottom: 4px;
+}
+
+/* this was to get the border deco and the recipe vault closer together ! */
+.cardtitle h2,
+.titledeco h3 {
+    margin: 0;
+}
+
+
+
+/* to remove the dots on the list */
 ul li { 
     list-style-type: none;
 
 }
 
-a { 
-    text-decoration: none;
+/* to remove the annoying padding and margin */
+ul {
+    margin: 0;
+    padding: 0;
 }
 
+/* to remove the underline */
+a { 
+    text-decoration: none;
+
+}
+
+/* this changes the color of the visited link from purple to something nicer */
 a:visited {
     color: #352620;
 }
 
+/* this gives the links a nice color when hovering */
 a:hover {
     color: #650015;
+}
+
+/* branding (:  */
+.footer {
+    color: #7d6b5d;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+
 }
