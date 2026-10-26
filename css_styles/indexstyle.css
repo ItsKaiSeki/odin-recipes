@@ -1,6 +1,6 @@
 /*  * handles universal declarations */
 
-/* updates are made after flex bod lessons. */
+/* updates are made after flexbox lessons. */
 /* universal will handle the font for the entire page, and the box sizing method. */
 * {
     font-family: Cinzel,'Courier New',Arial; 
@@ -13,22 +13,16 @@ body {
 }
 
 
-/* Header section handles the main header container 
-   title will let you interact with the "the cookbook" text
-   header and title are nested for cleaner code  */
+/* Header section handles the main header container */
 .header {
     background: #650015;
+    color: #fffdd0;
     display:flex;
+    justify-content: center;
+    text-decoration: underline 3px #c9ae92;
     padding: 0px 5px;
     flex: 1;
    
-.title {
-    margin:auto;
-    color: #fffdd0;
-    text-decoration: underline 3px #c9ae92;
-    padding-top: 20px;
-}  
-
 }
 
 
@@ -119,5 +113,4 @@ a:hover {
     margin-top: 100px;
     padding-bottom: 20px;
     text-align: center;
-
 }

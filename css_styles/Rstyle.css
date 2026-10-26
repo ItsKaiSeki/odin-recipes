@@ -1,62 +1,120 @@
 * {
-    box-sizing: border-box;
-    font-family: Georgia, 'Courier New', Arial;
+    font-family: Cinzel, 'Courier New', Arial;
 }
 
 body {
     background-color: beige;
+    margin: 0;
 }
-
-.header {
-    border: solid 5px black;
-    text-align: center;
+/* This set of declarations allows me to set a uniform size so it looks cleaner.  */
+.intro,
+.photocardone,
+.listone {
+    max-width: 1000px;
     margin: auto;
-    width: 300px;
-    max-width: 90%;
-    padding: 2px;
 }
 
+
+/* Mess with the the header to adjust the font and color of the background and anything else. */
+.header {
+    display: flex; 
+    justify-content: center;
+    color: #fffdd0;
+    text-decoration: underline 3px #c9ae92;
+    background-color: #650015;
+   
+
+}
+
+/* interact with this to mess with the intro description and the border decoration */
 .intro {
     text-align: center;
+    margin-top: 10px;
+    flex-wrap:wrap;
+    box-sizing:border-box;
+
+p {
+    margin-bottom: 5px;
+}
 }
 
-.photouno {
-    text-align: center;
-    width: 100%;
 
+/* photo card one has photo uno, description and h2 and p nested for easier alignment and allows for cleaner over all alignment */
+.photocardone {
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+.Photouno {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-basis: 400px;
+    margin: 10px;
 }
 
 .photouno img {
-    max-width: 90%;
-    
-}
+    margin: 10px;
+    flex: 1;
+    flex-basis: 400px;
+    border-radius: 10%;
 
+}
 
 .description {
-    padding:10px;
-    
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 20px;
+    flex: 1;
+    flex-basis: 400px;
+   
+}  
+
+h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+p {
+    text-align: center;
+}
 }
     
-.description span { 
-    border:solid 2px black;
-    background-color: orange;
-}
+
+/* interact to edit alignment and colors of the ingredients list */
+.listone {
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: solid 5px #c9ae92;
+    border-radius: 1%;
 
 .ingredients {
-    margin: auto;
-    width: 300px;
-    max-width: 90%;
     text-align: center;
-    border: solid 4px black;
-    padding: 2px;
+    text-decoration: underline 4px #c9ae92;
+}
+
+p {
+    text-align: start;
+    margin-left: 15px;
 
 }
 
-.broth {
-    border: solid 4px black;
-    margin: 18px;
-    padding: 15px;
 }
+
+
+
+
+
+
+
+
+
 
 .toppings {
     border: solid 4px black;
